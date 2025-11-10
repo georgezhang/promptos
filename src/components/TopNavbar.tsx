@@ -10,12 +10,12 @@ const TopNavbar = () => {
         <StaticImage
           src="../images/icon.png"
           alt="App Logo"
-          className="mr-3 h-6 sm:h-9"
+          className="mr-3 h-16"
           width={80}
-          height={40}
+          height={80}
         />
-        <span className="self-center whitespace-nowrap font-semibold text-gray-100">
-          Interviewers APP
+        <span className="self-center whitespace-nowrap font-semibold text-black">
+          Promptos
         </span>
       </Navbar.Brand>
       <Navbar.Toggle />

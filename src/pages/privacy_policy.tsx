@@ -14,7 +14,7 @@ const Privacy: React.FC<PageProps> = () => {
       <PageContainer>
         <H2>Privacy Policy</H2>
         <P>
-          This Privacy Policy ("Policy") describes how "Interviewers APP"
+          This Privacy Policy ("Policy") describes how "Prompto APP"
           collects, uses, and discloses personal information when you use our
           mobile application ("App"). Please read this Policy carefully before
           using the App. By accessing or using the App, you consent to the
@@ -136,7 +136,7 @@ const Privacy: React.FC<PageProps> = () => {
             </P1>
           </li>
         </OL>
-        <P>Effective Date: May 20, 2023</P>
+        <P>Effective Date: November 10, 2025</P>
       </PageContainer>
     </PageLayout>
   );

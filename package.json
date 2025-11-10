@@ -1,8 +1,8 @@
 {
-  "name": "wfacechat",
+  "name": "promptos",
   "version": "1.0.0",
   "private": true,
-  "description": "wfacechat",
+  "description": "An mobile app building prompts for AI photo edit.",
   "author": "George Zhang",
   "keywords": [
     "gatsby"

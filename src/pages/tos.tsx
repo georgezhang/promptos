@@ -15,7 +15,7 @@ const TermsOfServicePage: React.FC<PageProps> = () => {
         <H2>Terms of Service</H2>
 
         <P>
-          Welcome to Interviewers APP! These Terms of Service ("Terms") govern your
+          Welcome to Promptos! These Terms of Service ("Terms") govern your
           access to and use of our mobile application and related services
           ("App").
           <b>

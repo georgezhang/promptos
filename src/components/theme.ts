@@ -10,7 +10,7 @@ const theme: CustomFlowbiteTheme = {
     },
     link: {
       active: {
-        on: "bg-blue-700 text-white dark:text-white md:bg-transparent",
+        on: "bg-blue-700 text-black dark:text-white md:bg-transparent",
         off: "border-b text-gray-400 hover:bg-blue-700 hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:hover:bg-transparent md:hover:text-white",
       },
     },

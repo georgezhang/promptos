@@ -2,9 +2,9 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Interviewers APP`,
-    siteUrl: `https://interviewers.mainnote.com`,
-    description: `Revolutionizing Job Interviews with ChatGPT`,
+    title: `Promptos`,
+    siteUrl: `https://promptos.mainnote.com`,
+    description: `Transform Your Photos with AI – Effortlessly!`,
     image: `src/images/icon.png`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

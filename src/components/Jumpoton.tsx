@@ -3,23 +3,14 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const Jumpoton: FC<{}> = () => (
-  <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-blend-multiply">
+  <section className="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1499931658483-6c9bc4c4b177?auto=format&fit=crop&q=100&w=1560')] bg-blend-multiply">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 flex justify-center">
-      <div>
-        <StaticImage
-          src="../images/screenshot_01.png"
-          alt="App Screen"
-          width={394}
-          height={733}
-        />
-      </div>
       <div className="max-w-2xl flex-col justify-center flex">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-          Revolutionizing APP to simulate job interviews with ChatGPT
+          Transform Your Photos with AI – Effortlessly!
         </h1>
-        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-          Interviews APP leverages the power of ChatGPT, an advanced language
-          model, to simulate realistic job interviews.
+        <p className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-48">
+          Bring your photos to life with the power of AI! Our app isn’t just another photo editor – it’s a creative companion that transforms your ideas into stunning images using AI technology.
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a

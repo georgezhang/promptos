@@ -4,91 +4,40 @@ import PageLayout from "../components/PageLayout";
 import PageContainer from "../components/PageContainer";
 import H2 from "../elements/H2";
 import P from "../elements/P";
+import OL from "../elements/OL";
+import STRONG from "../elements/STRONG";
 
 const AboutPage: React.FC<PageProps> = () => {
   return (
     <PageLayout>
       <PageContainer>
         <H2>
-          Introducing Interviewers APP: Revolutionizing Job Interviews with
-          ChatGPT
+          Promptos: Transform Your Photos with AI – Effortlessly!
         </H2>
 
-        <P>
-          In today's fast-paced world, job interviews play a crucial role in the
-          hiring process. They provide employers with valuable insights into a
-          candidate's skills, qualifications, and suitability for a role.
-          However, conducting interviews can be time-consuming and
-          resource-intensive for both employers and candidates. What if there
-          was a way to streamline this process, making it more efficient,
-          accessible, and insightful? Enter Interviewers APP, the groundbreaking
-          mobile application powered by ChatGPT.
-        </P>
+        <P><STRONG>AI Photo Editor – Edit, Create, and Share with Prompts!</STRONG></P>
 
-        <P>
-          Interviewers APP leverages the power of ChatGPT, an advanced language
-          model, to simulate realistic job interviews. With its cutting-edge
-          natural language processing capabilities, Interviewers APP creates a
-          virtual interviewer that engages candidates in dynamic and interactive
-          conversations, replicating the experience of a real interview. This
-          innovative approach eliminates the need for in-person or video
-          interviews, allowing candidates to showcase their skills and abilities
-          anytime, anywhere, and at their own convenience.
-        </P>
+<P>Bring your photos to life with the power of AI! Our app isn’t just another photo editor – it’s a creative companion that transforms your ideas into stunning images using intelligent AI technology. Whether you want to enhance your selfies, create artistic masterpieces, or experiment with unique visual styles, our app makes it effortless.</P>
 
-        <P>
-          How does Interviewers APP work? As a candidate, you simply log in to
-          the mobile application and select the industry or job role you're
-          interested in. Interviewers APP then generates tailored interview
-          questions specific to your chosen field, ensuring that the assessment
-          is relevant and aligned with industry expectations. The virtual
-          interviewer poses questions, listens attentively to your responses,
-          and provides real-time feedback, helping you identify areas for
-          improvement and enhancing your interview skills.
-        </P>
+<P><STRONG>Edit Photos Using AI Prompts</STRONG></P>
+<P>Simply upload your photo and describe what you want in words. Our AI understands your instructions and applies professional-grade edits instantly. From subtle enhancements to dramatic transformations, your imagination guides the AI.</P>
 
-        <P>
-          Interviewers APP's virtual interviewer is designed to be highly
-          adaptive and responsive, providing a personalized experience for each
-          candidate. It can ask follow-up questions, probe for further details,
-          and even gauge non-verbal cues through text-based analysis. This
-          unique feature enables candidates to practice their interview skills
-          in a comprehensive and realistic manner, building their confidence and
-          readiness for the real thing.
-        </P>
+<P><STRONG>Discover and Share Creative Prompts</STRONG></P>
+<P>Get inspired by the community! Explore prompts shared by other users, try them on your own photos, or share your own creative instructions. Build a library of prompts that reflect your style and creativity.</P>
 
-        <P>
-          Moreover, Interviewers APP offers a range of additional features to
-          support candidates throughout their interview preparation journey. It
-          provides comprehensive interview tips, best practices, and sample
-          answers to common interview questions, allowing candidates to
-          familiarize themselves with various scenarios and polish their
-          responses. Interviewers APP also offers the option to record and
-          review interview sessions, enabling candidates to evaluate their
-          performance and make necessary adjustments for improvement.
-        </P>
+<P><STRONG>Features You’ll Love:</STRONG></P>
+<P>
+  <OL>AI-powered editing: Enhance, retouch, or completely transform your photos.</OL>
+<OL>Prompt-based creativity: Control your edits using simple text prompts.</OL>
+<OL>Artistic styles and effects: Turn ordinary photos into artistic creations.</OL>
+<OL>Community sharing: Share your favorite prompts and explore others’ ideas.</OL>
+<OL>Easy to use: Intuitive interface designed for effortless editing.</OL></P>
 
-        <P>
-          For employers, Interviewers APP offers a transformative solution to
-          streamline their hiring processes. By integrating ChatGPT-powered
-          interviews into their recruitment pipelines, employers can efficiently
-          assess a large pool of candidates, identify top talent, and make
-          informed hiring decisions. Interviewers APP's advanced analytics
-          provide valuable insights into candidates' performance, highlighting
-          their strengths and areas of concern, thus enabling employers to make
-          data-driven assessments.
-        </P>
+<P><STRONG>Why You’ll Love It:</STRONG></P>
+<P>Make professional-quality edits in seconds, explore endless creative possibilities with prompts, and join a vibrant community of creators sharing inspiration and innovation.</P>
 
-        <P>
-          In a world where technology continues to reshape our daily lives,
-          Interviewers APP stands at the forefront of innovation in job
-          interview simulations. With its powerful ChatGPT engine, it
-          revolutionizes the way candidates prepare for interviews and how
-          employers evaluate talent. So whether you're a job seeker looking to
-          excel in your next interview or an employer seeking to optimize your
-          hiring process, Interviewers APP is the transformative mobile
-          application that empowers you to succeed.
-        </P>
+<P>Unleash your creativity. Transform your photos. Share your vision – all with the power of AI.</P>
+
       </PageContainer>
     </PageLayout>
   );
