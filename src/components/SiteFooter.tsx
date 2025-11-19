@@ -10,6 +10,9 @@ const SiteFooter = () => {
         year={new Date().getFullYear()}
       />
       <Footer.LinkGroup>
+        <Footer.Link href="/remove_account">
+          Remove account request
+        </Footer.Link>
         <Footer.Link href="/about">
           About
         </Footer.Link>
