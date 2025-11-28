@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 const Downloads: FC<{}> = () => (
   <section id="downloads">
     <div className="px-4 mx-auto max-w-screen-md text-center py-24 flex items-center">
-      <Link to="https://apps.apple.com/us/app/interviewers/id6446600811">
+      <Link to="https://apps.apple.com/ca/app/promptos/id6755153473">
         <StaticImage
           src="../images/app-store-apple.png"
           alt="App Store Apple"
@@ -13,7 +13,7 @@ const Downloads: FC<{}> = () => (
           height={180}
         />
       </Link>
-      <Link to="https://play.google.com/store/apps/details?id=com.mfacechat">
+      <Link to="https://play.google.com/store/apps/details?id=com.mainnote.taptap">
         <StaticImage
           src="../images/google-play-android.png"
           alt="Google Play Android"
