@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5LNJUSGN9C.com.mainnote.taptap",
+        "paths": [
+          "/tutorial/qr_code*"
+        ]
+      }
+    ]
+  }
+}

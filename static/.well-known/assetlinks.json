@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mainnote.taptap",
+      "sha256_cert_fingerprints": [
+        "73:2B:48:E5:98:23:1B:5E:84:E1:B6:EA:8D:47:82:85:CB:19:56:A8:F9:65:29:CB:15:5C:BF:BD:2F:44:56:78"
+      ]
+    }
+  }
+]
