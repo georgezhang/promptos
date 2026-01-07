@@ -8,6 +8,7 @@ import P from "../../elements/P";
 import STRONG from "../../elements/STRONG";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import Downloads from "../../components/Downloads";
 
 const QRCodeTutorialPage: React.FC<PageProps> = () => {
   return (
@@ -29,39 +30,16 @@ const QRCodeTutorialPage: React.FC<PageProps> = () => {
 
           {/* Step 1 */}
           <div className="w-full max-w-2xl bg-white rounded-lg shadow-md p-6 border border-gray-200">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-1">
               <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">
                 1
               </div>
-              <H3>Install the App</H3>
+              <H3>Install the App: Promptos</H3>
             </div>
             <P>
               If you haven't installed Promptos yet, download it from your preferred app store:
             </P>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link 
-                to="https://apps.apple.com/ca/app/promptos/id6755153473"
-                className="transform transition hover:scale-105"
-              >
-                <StaticImage
-                  src="../images/app-store-apple.png"
-                  alt="Download on App Store"
-                  width={200}
-                  height={60}
-                />
-              </Link>
-              <Link 
-                to="https://play.google.com/store/apps/details?id=com.mainnote.taptap"
-                className="transform transition hover:scale-105"
-              >
-                <StaticImage
-                  src="../images/google-play-android.png"
-                  alt="Get it on Google Play"
-                  width={215}
-                  height={65}
-                />
-              </Link>
-            </div>
+            <Downloads />
           </div>
 
           {/* Step 2 */}
@@ -70,10 +48,13 @@ const QRCodeTutorialPage: React.FC<PageProps> = () => {
               <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">
                 2
               </div>
-              <H3>Scan QR Code</H3>
+              <H3>Scan QR Code again</H3>
             </div>
             <P>
-              <STRONG>Scan the QR code below to get the new prompt and image:</STRONG>
+              <STRONG>Now you may scan the QR Code from your camera or social media app to get the new prompt and image.</STRONG>
+            </P>
+            <P>
+              <STRONG>Or you can scan the QR code directly from the app Promptos.</STRONG>
             </P>
             <div className="flex justify-center bg-gray-50 p-8 rounded-lg border-2 border-dashed border-gray-300">
               <div className="text-center">
@@ -82,8 +63,6 @@ const QRCodeTutorialPage: React.FC<PageProps> = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
                   </svg>
                 </div>
-                <P>QR Code Placeholder</P>
-                <P>Point your camera at the QR code to scan</P>
               </div>
             </div>
             <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
